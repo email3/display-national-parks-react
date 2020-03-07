@@ -1,0 +1,12 @@
+.ui.card, .ui.cards>.card {
+    width: 600px;
+}
+
+.parkImage {
+    float: left;
+    margin-right: 20px;
+}
+
+.parkName {
+    font-size: 2em;
+}
