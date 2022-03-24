@@ -10,7 +10,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    const dataSetUrl = 'http://www.chaseandchambers.com/parks.json',
+    const dataSetUrl = './parks.json',
       proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
     fetch(proxyUrl + dataSetUrl)
